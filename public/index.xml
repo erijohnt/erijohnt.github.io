@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eli&#39;s zone</title>
+    <link>/</link>
+    <description>Recent content on eli&#39;s zone</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 -0600</pubDate>
+      
+      <guid>/about/</guid>
+      <description>it&amp;rsquo;s me, eli!</description>
+    </item>
+    
+    <item>
+      <title>Attributions</title>
+      <link>/attributions/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 -0600</pubDate>
+      
+      <guid>/attributions/</guid>
+      <description>This page is for attributions that apply to intellectual material not scoped within a single post or page on the blog.
+ /img/tux.png © Larry Ewing ewing@isc.tamu.edu and the GIMP, via Wikimedia Commons /img/tux.svg © Larry Ewing ewing@isc.tamu.edu and the GIMP, via Wikimedia Commons  </description>
+    </item>
+    
+  </channel>
+</rss>
