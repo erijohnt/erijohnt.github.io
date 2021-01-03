@@ -1,0 +1,18 @@
+<footer>
+    <div class="container-lg clearfix">
+        <div class="col-12 footer">
+            {{ if .Site.Params.showLicenseInFooter }}
+            <p>
+                {{ i18n "postCopyrightFront" }}<a rel="license" href="{{ .Site.Params.licenseLink }}" target="_blank">{{ .Site.Params.license }}</a>{{ i18n "postCopyrightEnd" }}
+            </p>
+            {{ end }}
+            <span>&copy; {{ with .Site.Params.copyrightStartYear }}{{ . }}-{{ end }}{{ now.Format "2006" }}
+                {{ with .Site.Params.sourceURL }} <a href="{{ . }}"> {{ else }} <a href="{{ .Site.BaseURL }}"> {{ end }} {{ .Site.Params.author }}</a> 
+                | {{ i18n "footerPoweredFront" }}<a href="https://github.com/amzrk2/hugo-theme-fuji/"
+                   target="_blank">Fuji-v2</a> &amp; <a href="https://gohugo.io/"
+                                                    target="_blank">Hugo</a>{{ i18n "footerPoweredEnd" }}
+                {{ with .Site.Params.attributionsURL }} | <a href="{{ . }}">Attributions</a> {{ end }}
+            </span>
+        </div>
+    </div>
+</footer>
