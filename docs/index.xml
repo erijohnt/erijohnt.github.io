@@ -7,6 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Arm Packer</title>
+      <link>/arm-packer/</link>
+      <pubDate>Sun, 28 Mar 2021 14:30:08 -0500</pubDate>
+      
+      <guid>/arm-packer/</guid>
+      <description>Packer for ARM images I have a raspberry pi that I want to use for various microservices on my local network, but I want to use Fedora instead of the usual Debian-based distributions more widely supported by the community. As it turns out, the base Fedora Server image for ARM has a lot of old packages that need to be updated, and I hate sitting around watching updates spin on my raspberry pi when I could do dnf upgrade -y on a more powerful machine beforehand and bake it into the image I load onto a microSD card.
+While at it, I can install Docker and any other prerequisites that&amp;rsquo;ll be common across the multiple pis I have so that provisioning becomes a lot easier.</description>
+    </item>
+    
+    <item>
       <title>About</title>
       <link>/about/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 -0600</pubDate>
