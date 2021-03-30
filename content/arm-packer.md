@@ -77,3 +77,21 @@ xvda
 
 This gives us the information we'll need to supply in our packer template for
 the partition scheme.
+
+## Troubleshooting
+
+### Bad networking
+
+I was running into issues where `sudo dnf upgrade -y` failed because it
+couldn't resolve DNS names. This is apparently a known issue with a workaround:
+remove `/etc/resolv.conf` and replace it with a basic DNS server.
+
+```bash
+mv /etc/resolv.conf /etc/resolv.conf.bak
+echo 'nameserver 8.8.8.8' > /etc/resolv.conf
+```
+
+## References
+
+- https://www.reddit.com/r/linux4noobs/comments/91v0oh/cant_mount_raw_disk_image_but_can_read_files_with/
+- https://www.b-ehlers.de/blog/posts/2017-10-26-inspect-modify-qemu-images/
