@@ -3,7 +3,22 @@ title: "Broadcast open captions for pre-written scripts"
 date: 2022-12-19T19:30:00-08:00
 ---
 
+[WIP]
+
 # Broadcast captions from pre-written script
+
+I recently ran the Twitch stream for the 2022 Bay Area Solstice event, which
+included live music and speeches. We wanted the stream to have captions so that
+people at home could follow along even if they couldn't hear everything
+perfectly for whatever reason--be it the speaker not leaning into the mic, song
+lyrics being hard to make out, hard of hearing, etc. Although we would've
+preferred closed captions, I couldn't quite figure that out in time for the
+event, so we went for open "hardcoded" captions for the live event with the
+intention of uploading a closed caption version to Youtube afterwards.
+
+
+Here's how I did it and where I think I could've done things better!
+
 
 ## Overview
 
